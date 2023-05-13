@@ -2,8 +2,6 @@
 
 [![wakatime](https://wakatime.com/badge/user/5a50e193-2e98-47bd-9b67-0952bed984cf/project/3c1cb980-ca5a-41c9-ac94-22fa1cbddbd4.svg)](https://wakatime.com/badge/user/5a50e193-2e98-47bd-9b67-0952bed984cf/project/3c1cb980-ca5a-41c9-ac94-22fa1cbddbd4)
 
-[![wakatime](https://wakatime.com/badge/user/5a50e193-2e98-47bd-9b67-0952bed984cf/project/42157d71-26a3-476b-a4c2-ebb5e7340d90.svg)](https://wakatime.com/badge/user/5a50e193-2e98-47bd-9b67-0952bed984cf/project/42157d71-26a3-476b-a4c2-ebb5e7340d90)
-
 # Introduction
 . Halcyon.css is a minimalist css framework in development. The end goal is getting decent looking websites with as little custom css as possible. Another goal is to reduce the ammount of classes assigned to elements to as little as logically possible.
 
