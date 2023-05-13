@@ -1,0 +1,381 @@
+/**
+* Halcyon.css main root styles
+* @Author: Sebastian Muchui
+* About: 
+* Halcyon.css aims at getting fine looking websites without
+* tne use of extremely long class names
+* Year: 2023
+* LICENSE: MIT
+*/
+
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+
+$black: lighten(#222222, 3%);
+$white: darken(#ffffff, 10);
+$pink: #f32b88;
+$blue: #23a1eb;
+$green: #24d86c;
+$gold: #cebd04;
+$grey: #cecdcd;
+$red: #931b1b;
+$purple: #4b036e;
+$columns:(1,2,3,4,5,6,7); // Grid Columns
+
+@each $col in $columns
+{
+    .grid-#{$col}
+    {
+        display: grid;
+        grid-template-columns: repeat(#{$col},1fr);
+        grid-gap: 5px;
+    }
+}
+
+
+
+
+@function CreateBackground($foreground)
+{
+    @if (lightness($foreground) > 50)
+    {
+        @return darken($foreground, 55%);
+    }
+    @else if (lightness($foreground < 50))
+    {
+        @return lighten($foreground, 55%);
+    }
+}
+
+@function CreateForeground($background)
+{
+    @if (lightness($background) > 60)
+    {
+        @return darken($background, 5%);
+    }
+
+    @else if (lightness($background) > 40)
+    {
+        @return darken($background, 5%);
+    }
+
+    @else
+    {
+        @return darken($background, 5%);
+    }
+
+}
+
+ *
+ {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    font-family: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+    outline: none;
+    box-shadow: none;
+    border: none;
+    border-collapse: collapse;
+    border-radius: 10px;
+    color: #ccc;
+
+    .center-xy
+    {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         align-content: center;
+         justify-content: center;
+         justify-items: center;
+    }
+
+    .center-x
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+    }
+
+    .center-y
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    .ch-vertical
+    {
+        height: max-content;
+        display: flex;
+        flex-direction: column;
+
+        *
+        {
+            margin-bottom: 10px;
+        }
+    }
+
+    a , button
+
+
+    /* Buttons */
+
+    .btn-black
+    {
+        background-color: $black;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        justify-items: center;
+        padding: 15px 15px;
+        color: $white;
+        font-weight: 600;
+
+    }
+    .btn-white
+    {
+        background-color: $white;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        justify-items: center;
+        padding: 15px 15px;
+        color: $white;
+        font-weight: 600;
+
+    }
+    
+    .btn-pink
+    {
+        background-color: $pink;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        justify-items: center;
+        padding: 15px 15px;
+        color: $white;
+        font-weight: 600;
+    }
+    .btn-blue
+    {
+        background-color: $blue;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        justify-items: center;
+        padding: 15px 15px;
+        color: $white;
+        font-weight: 500;
+    }
+
+    .btn-green
+    {
+        background-color: $green;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        justify-items: center;
+        padding: 15px 15px;
+        color: $white;
+        font-weight: 500;
+    }
+    
+    .btn-gold
+    {
+        background-color: $gold;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        justify-items: center;
+        padding: 15px 15px;
+        color: $white;
+        font-weight: 500;
+    }
+
+    .btn-grey
+    {
+        background-color: $grey;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        justify-items: center;
+        padding: 15px 15px;
+        color: $white;
+        font-weight: 600;
+    }
+
+    .btn-purple
+    {
+        background-color: $purple;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        justify-items: center;
+        padding: 15px 15px;
+        color: $white;
+        font-weight: 600;
+    }
+
+    /* Typography */
+
+    .text-black
+    {
+        color: $black;
+    }
+
+    .text-white
+    {
+        color: $white;
+    }
+
+    .text-pink
+    {
+        color: $pink;
+    }
+
+    .text-blue
+    {
+        color: $blue;
+    }
+
+    .text-green
+    {
+        color: $green;
+    }
+
+    .text-gold
+    {
+        color: $gold;
+    }
+
+    .text-grey
+    {
+        color: $grey;
+    }
+
+    .text-purple
+    {
+        color: $purple;
+    }
+
+    .text-center
+    {
+        text-align: center;
+    }   
+
+    .text-left
+    {
+        text-align: left;
+    }
+
+    .text-right
+    {
+        text-align: right;
+    }
+
+    .text-xxsmall
+    {
+        font-size: 10px;
+    }
+
+    .text-small
+    {
+        font-size: 14px;
+    }
+
+    .text-big
+    {
+        font-size: 18px;
+    }
+
+    .text-large
+    {
+        font-size: 24px;
+        padding-bottom: 10px;
+    }
+
+
+    .text-xxlarge
+    {
+        font-size: 32px;
+        padding-bottom: 10px;
+
+    }
+
+    // Fonts will be manually resized by the user
+}
+
+
+
+body
+{
+    background-color: $white;
+    width: 100vw;
+    height: 100vh;
+    border-radius: 0;
+
+    *
+    {
+        color: $black;
+    }
+
+    form
+    {
+        display: flex;
+        flex-direction: column;
+        height: max-content;
+        width: max-content;
+        align-items: center;
+        justify-items: flex-start;
+        padding: 10px;
+
+
+        *
+        {
+            margin-bottom: 10px;
+        }
+        
+        input, textarea
+        {
+            color: $black;
+            background-color: darken($white, 4%);
+            padding: 5px 15px;
+            border-radius: 12.5px;
+            height: 40px;
+            font-size: 12px;
+            width: 80%;
+        }
+
+        textarea
+        {
+            height: 90px;
+            resize: none;
+        }
+
+        button
+        {
+            width: 80%;
+
+        }
+    }
+
+    .container
+    {
+        padding: 5px;
+    }
+
+}
