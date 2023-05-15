@@ -1,0 +1,93 @@
+/**
+* Halcyon.css typography library
+* @Author: Sebastian Muchui K
+* About: 
+* Halcyon.css aims at getting fine looking websites without
+* tne use of extremely long class names
+* Year: 2023
+* LICENSE: MIT
+*/
+
+.text-black
+{
+    color: $black;
+}
+
+.text-white
+{
+    color: $white;
+}
+
+.text-pink
+{
+    color: $pink;
+}
+
+.text-blue
+{
+    color: $blue;
+}
+
+.text-green
+{
+    color: $green;
+}
+
+.text-gold
+{
+    color: $gold;
+}
+
+.text-grey
+{
+    color: $grey;
+}
+
+.text-purple
+{
+    color: $purple;
+}
+
+.text-center
+{
+    text-align: center;
+}   
+
+.text-left
+{
+    text-align: left;
+}
+
+.text-right
+{
+    text-align: right;
+}
+
+.text-xxsmall
+{
+    font-size: 10px;
+}
+
+.text-small
+{
+    font-size: 14px;
+}
+
+.text-big
+{
+    font-size: 18px;
+}
+
+.text-large
+{
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+
+
+.text-xxlarge
+{
+    font-size: 32px;
+    padding-bottom: 10px;
+
+}

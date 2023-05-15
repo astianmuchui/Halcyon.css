@@ -1,0 +1,119 @@
+/**
+* Halcyon.css buttons
+* @Author: Sebastian Muchui K
+* About: 
+* Halcyon.css aims at getting fine looking websites without
+* tne use of extremely long class names
+* Year: 2023
+* LICENSE: MIT
+*/
+
+/**
+* Use ./_colors.scss
+*/
+
+.btn-black
+{
+    background-color: $black;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    padding: 15px 15px;
+    color: $white;
+    font-weight: 600;
+
+}
+
+.btn-white
+{
+    background-color: $white;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    padding: 15px 15px;
+    color: $white;
+    font-weight: 600;
+
+}
+
+.btn-pink
+{
+    background-color: $pink;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    padding: 15px 15px;
+    color: $white;
+    font-weight: 600;
+}
+
+.btn-blue
+{
+    background-color: $blue;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    padding: 15px 15px;
+    color: $white;
+    font-weight: 500;
+}
+
+.btn-green
+{
+    background-color: $green;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    padding: 15px 15px;
+    color: $white;
+    font-weight: 500;
+}
+
+.btn-gold
+{
+    background-color: $gold;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    padding: 15px 15px;
+    color: $white;
+    font-weight: 500;
+}
+
+.btn-grey
+{
+    background-color: $grey;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    padding: 15px 15px;
+    color: $white;
+    font-weight: 600;
+}
+
+.btn-purple
+{
+    background-color: $purple;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    padding: 15px 15px;
+    color: $white;
+    font-weight: 600;
+}
