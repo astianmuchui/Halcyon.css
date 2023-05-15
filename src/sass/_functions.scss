@@ -1,0 +1,40 @@
+/**
+* Halcyon.css functions
+* @Author: Sebastian Muchui K
+* About: 
+* Halcyon.css aims at getting fine looking websites without
+* tne use of extremely long class names
+* Year: 2023
+* LICENSE: MIT
+*/
+
+@function CreateBackground($foreground)
+{
+    @if (lightness($foreground) > 50)
+    {
+        @return darken($foreground, 55%);
+    }
+    @else if (lightness($foreground < 50))
+    {
+        @return lighten($foreground, 55%);
+    }
+}
+
+@function CreateForeground($background)
+{
+    @if (lightness($background) > 60)
+    {
+        @return darken($background, 5%);
+    }
+
+    @else if (lightness($background) > 40)
+    {
+        @return darken($background, 5%);
+    }
+
+    @else
+    {
+        @return darken($background, 5%);
+    }
+
+}
