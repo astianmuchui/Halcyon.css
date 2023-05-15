@@ -1,21 +1,14 @@
-/**
-* Halcyon.css main root styles 
-* @Author: Sebastian Muchui K
-* About: 
-* Halcyon.css aims at getting fine looking websites without
-* tne use of extremely long class names
-* Year: 2023
-* LICENSE: MIT
-*/
-
-@import url("https://fonts.googleapis.com/css?family=Poppins");
-@import url('colors');
-@import url('anime');
-@import url('displays');
-@import url('typography');
+@import "root";
+@import "colors";
+@import 'anime';
+@import 'displays';
+@import 'typography';
+@import 'buttons';
+@import 'functions';
 
 
- *
+
+ * 
  {
     margin: 0;
     padding: 0;
@@ -32,11 +25,7 @@
     border-radius: 10px;
     color: #ccc;
 
-
-
 }
-
-
 
 body
 {
