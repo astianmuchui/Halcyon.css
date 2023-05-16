@@ -105,6 +105,19 @@
     font-weight: 600;
 }
 
+.btn-green
+{
+    background-color: $green;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    padding: 15px 15px;
+    color: $white;
+    font-weight: 600;
+}
+
 .btn-purple
 {
     background-color: $purple;
@@ -116,4 +129,45 @@
     padding: 15px 15px;
     color: $white;
     font-weight: 600;
+}
+
+.btn-red
+{
+    background-color: $red;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    padding: 15px 15px;
+    color: $white;
+    font-weight: 600;
+}
+
+.btn-white
+{
+    background-color: $white;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    padding: 15px 15px;
+    color: $black;
+    font-weight: 600;
+    box-shadow: 1px 1px 1px 2px darken($white, 10);
+}
+
+.btn-black
+{
+    background-color: $black;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    padding: 15px 15px;
+    color: $white;
+    font-weight: 600;
+    
 }

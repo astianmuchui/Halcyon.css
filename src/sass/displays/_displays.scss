@@ -1,3 +1,13 @@
+/**
+* Halcyon.css colors
+* @Author: Sebastian Muchui K
+* About: 
+* Halcyon.css aims at getting fine looking websites without
+* tne use of extremely long class names
+* Year: 2023
+* LICENSE: MIT
+*/
+
 $columns:(1,2,3,4,5,6,7); // Grid Columns
 
 @each $col in $columns
