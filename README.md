@@ -6,7 +6,7 @@
 
 
 # Introduction
-    . Halcyon.css is a minimalist css framework in development. The end goal is getting decent looking websites with as little custom css as                possible. Another goal is to reduce the ammount of classes assigned to elements to as little as logically possible.
+   Halcyon.css is a minimalist css framework in development. The end goal is getting decent looking websites with as little custom css as              possible. Another goal is to reduce the ammount of classes assigned to elements to as little as logically possible.
 
 ### Here is an example
 ```html
