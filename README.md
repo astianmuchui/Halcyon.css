@@ -48,3 +48,5 @@
     . Documentation will be released once a reasonable point is reached
 
     . You can also contribute
+
+### Made with  ❤️‍🔥 by @astianmuchui
