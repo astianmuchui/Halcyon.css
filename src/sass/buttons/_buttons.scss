@@ -12,9 +12,8 @@
 * Use ./_colors.scss
 */
 
-.btn-black
+.default
 {
-    background-color: $black;
     display: flex;
     align-items: center;
     align-content: center;
@@ -22,152 +21,79 @@
     justify-items: center;
     padding: 15px 15px;
     color: $white;
-    font-weight: 600;
+    font-weight: 600;   
+}
+
+.btn-black
+{
+    background-color: $black;
+    @extend .default;
 
 }
 
 .btn-white
 {
     background-color: $white;
-    display: flex;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    justify-items: center;
-    padding: 15px 15px;
-    color: $white;
-    font-weight: 600;
-
+    @extend .default;
 }
 
 .btn-pink
 {
     background-color: $pink;
-    display: flex;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    justify-items: center;
-    padding: 15px 15px;
-    color: $white;
-    font-weight: 600;
-}
+    @extend .default;}
 
 .btn-blue
 {
     background-color: $blue;
-    display: flex;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    justify-items: center;
-    padding: 15px 15px;
-    color: $white;
-    font-weight: 500;
+    @extend .default;
 }
 
 .btn-green
 {
     background-color: $green;
-    display: flex;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    justify-items: center;
-    padding: 15px 15px;
-    color: $white;
-    font-weight: 500;
+    @extend .default;
 }
 
 .btn-gold
 {
     background-color: $gold;
-    display: flex;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    justify-items: center;
-    padding: 15px 15px;
-    color: $white;
-    font-weight: 500;
+    @extend .default;
 }
 
 .btn-grey
 {
     background-color: $grey;
-    display: flex;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    justify-items: center;
-    padding: 15px 15px;
-    color: $white;
-    font-weight: 600;
+    @extend .default;
 }
 
 .btn-green
 {
     background-color: $green;
-    display: flex;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    justify-items: center;
-    padding: 15px 15px;
-    color: $white;
-    font-weight: 600;
+    @extend .default;
 }
 
 .btn-purple
 {
     background-color: $purple;
-    display: flex;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    justify-items: center;
-    padding: 15px 15px;
-    color: $white;
-    font-weight: 600;
+    @extend .default;
 }
 
 .btn-red
 {
     background-color: $red;
-    display: flex;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    justify-items: center;
-    padding: 15px 15px;
-    color: $white;
-    font-weight: 600;
+    @extend .default;
 }
 
 .btn-white
 {
     background-color: $white;
-    display: flex;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    justify-items: center;
-    padding: 15px 15px;
+    @extend .default;
     color: $black;
-    font-weight: 600;
     box-shadow: 1px 1px 1px 2px darken($white, 10);
 }
 
 .btn-black
 {
     background-color: $black;
-    display: flex;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    justify-items: center;
-    padding: 15px 15px;
-    color: $white;
-    font-weight: 600;
-    
+    @extend .default;    
 }

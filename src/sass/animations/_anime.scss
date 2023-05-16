@@ -305,7 +305,95 @@
 * @return: relative positioning
 */
 
-@function HandleAnimation()
+@mixin Animation
 {
-    @return (position: relative);
+    position: relative;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    animation-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
+
+
+
+// ANIMATION CLASSES: 
+
+.animate-left
+{
+    @include Animation;
+    animation: SlideInLeft;
+}
+
+.animate-right
+{
+    @include Animation;
+    animation: SlideInRight;
+}
+
+.animate-up
+{
+    @include Animation;
+    animation: SlideInUp;
+}
+
+.animate-down
+{
+    @include Animation;
+    animation: SlideInDown;
+}
+
+.animate-rotate
+{
+    @include Animation;
+    animation: RotateIn;
+}
+
+.animate-zoom
+{
+    @include Animation;
+    animation: ZoomIn;
+}
+
+.animate-fade
+{
+    @include Animation;
+    animation: fade;
+}
+
+.animate-left-out
+{
+    @include Animation;
+    animation: SlideOutLeft;
+}
+
+.animate-right-out
+{
+    @include Animation;
+    animation: SlideOutRight;
+}
+
+.animate-up-out
+{
+    @include Animation;
+    animation: SlideOutUp;
+}
+
+.animate-down-out
+{
+    @include Animation;
+    animation: SlideOutDown;
+}
+
+.animate-rotate-out
+{
+    @include Animation;
+    animation: RotateOut;
+}
+
+.animate-zoom-out
+{
+    @include Animation;
+    animation: ZoomOut;
+}
+
