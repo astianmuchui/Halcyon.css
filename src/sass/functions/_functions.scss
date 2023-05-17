@@ -8,7 +8,6 @@
 * LICENSE: MIT
 */
 
-
 @function CreateBackground($foreground)
 {
     @if (lightness($foreground) > 50)

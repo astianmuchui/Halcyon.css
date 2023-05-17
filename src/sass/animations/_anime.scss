@@ -316,9 +316,6 @@
 }
 
 
-
-// ANIMATION CLASSES: 
-
 .animate-left
 {
     @include Animation;
@@ -396,4 +393,3 @@
     @include Animation;
     animation: ZoomOut;
 }
-
