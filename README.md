@@ -1,4 +1,5 @@
-## <img src="https://github.com/astianmuchui/Halcyon.css/assets/67919419/e56f4eaa-d268-4b86-b644-658398156d8a" width="200px" height="200px"> 
+
+## <center><img src="https://github.com/astianmuchui/Halcyon.css/assets/67919419/e56f4eaa-d268-4b86-b644-658398156d8a" width="200px" height="200px"></center>
 
 # The CSS framework for Lazybones 
 
