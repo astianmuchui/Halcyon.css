@@ -1,0 +1,21 @@
+/**
+* Halcyon.css resizes
+* Author: Sebastian Muchui K
+* About: Halcyon.css aims at getting fine looking websites without
+* the use of extremely long class names
+* Year: 2023
+* LICENSE: MIT
+*/
+
+
+$widths: (5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100);
+
+    
+    @each $w in $widths
+    {
+
+        // Set the width to that corresponding percentage
+        
+    }
+
+
