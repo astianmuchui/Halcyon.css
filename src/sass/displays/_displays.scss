@@ -5,7 +5,7 @@
 * LICENSE: MIT
 */
 
-$columns:(1,2,3,4,5,6,7); // Grid Columns
+$columns:(1,2,3,4,5,6,7);
 
 @each $col in $columns
 {
@@ -17,10 +17,8 @@ $columns:(1,2,3,4,5,6,7); // Grid Columns
     }
 }
 
-
 *
 {
-
 
 .center-xy
 {
