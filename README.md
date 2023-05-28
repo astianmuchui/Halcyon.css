@@ -10,7 +10,7 @@
 
 
 # Introduction
-   Halcyon.css is a minimalist css framework in development. The end goal is getting decent looking websites with as little custom css as              possible. Another goal is to reduce the ammount of classes assigned to elements to as little as logically possible.
+   Halcyon.css is a minimalist css framework in development. The end goal is getting decent looking websites with as little custom css as              possible.
 
 ### Here is an example
 ```html
@@ -44,13 +44,4 @@
 </html>
 ```
 
-### On the first test of the code, the below result was obtained 
-
-![Screenshot_20230513_132256](https://github.com/astianmuchui/Halcyon.css/assets/67919419/04cd2fa5-91d1-431a-91d7-ce6131dabaa2)
-
-
-    . Documentation will be released once a reasonable point is reached
-
-    . You can also contribute
-
-### Made with  ❤️‍🔥 by @astianmuchui
+### Made with  ❤️‍ by @astianmuchui
