@@ -1,3 +1,4 @@
+
 /**
 * Halcyon.css
 * Author: Sebastian Muchui Kamankura
@@ -6,17 +7,19 @@
 * Have fun :)
 */
 
+@import url('https://fonts.googleapis.com/css?family=Poppins');
 @import 'colors/colors';
 @import 'displays/displays';
 @import 'typography/typography';
+@import 'animations/anime';
 @import 'buttons/buttons';
 @import 'functions/functions';
-@import 'animations/anime';
-@import url('https://fonts.googleapis.com/css?family=Poppins');
 
+
+/* Resets  */
 
 *
- {
+{
 
     margin: 0;
     padding: 0;
@@ -35,61 +38,61 @@
 
 }
 
-    body
-    {
-        background-color: $white;
-        width: 100vw;
-        height: 100vh;
-        border-radius: 0;
+body
+{
+    background-color: $white;
+    width: 100vw;
+    height: 100vh;
+    border-radius: 0;
+
+*
+{
+    color: $black;
+}
+
+form
+{
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    width: max-content;
+    align-items: center;
+    justify-items: flex-start;
+    padding: 10px;
+
 
     *
     {
+        margin-bottom: 10px;
+    }
+    
+    input, textarea
+    {
         color: $black;
+        background-color: darken($white, 3%);
+        padding: 5px 15px;
+        border-radius: 12.5px;
+        height: 40px;
+        font-size: 12px;
+        width: 80%;
     }
 
-    form
+    textarea
     {
-        display: flex;
-        flex-direction: column;
-        height: max-content;
-        width: max-content;
-        align-items: center;
-        justify-items: flex-start;
-        padding: 10px;
-
-
-        *
-        {
-            margin-bottom: 10px;
-        }
-        
-        input, textarea
-        {
-            color: $black;
-            background-color: darken($white, 3%);
-            padding: 5px 15px;
-            border-radius: 12.5px;
-            height: 40px;
-            font-size: 12px;
-            width: 80%;
-        }
-
-        textarea
-        {
-            height: 90px;
-            resize: none;
-        }
-
-        button
-        {
-            width: 80%;
-
-        }
+        height: 90px;
+        resize: none;
     }
 
-    .container
+    button
     {
-        padding: 5px;
-    }
+        width: 80%;
 
     }
+}
+
+.container
+{
+    padding: 5px;
+}
+
+}
