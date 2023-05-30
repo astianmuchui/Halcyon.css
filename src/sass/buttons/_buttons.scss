@@ -18,8 +18,16 @@
     justify-items: center;
     padding: 15px 15px;
     color: $white;
-    font-weight: 600;   
+    font-weight: 600;
+    border-radius: 10px;
+
+    &:hover
+    {
+        transition: all 1px cubic-bezier(0.785, 0.135, 0.15, 0.86) 2s;
+        opacity: 0.95;
+    }
 }
+
 
 .btn-black
 {
@@ -93,4 +101,9 @@
 {
     background-color: $black;
     @extend .default;    
+}
+
+.btn-flat
+{
+    border-radius: 0;
 }
