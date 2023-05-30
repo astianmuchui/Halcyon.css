@@ -6,14 +6,187 @@
 */
 
 
-$widths: (5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100);
+    $nums: (); // Empty array to store the percentages
 
-    
-    @each $w in $widths
+    $pexels: (); // Empty arrays to contain sizes in pexels
+
+
+    @for $i from 0 through 100
     {
-
-        // Set the width to that corresponding percentage
-        width: calc(#{$w}/ 100);
+        $nums: append($nums, $i);
     }
 
+    @for $j from 0 through 500
+    {
+        $pexels: append($pexels, $j);
+    }
 
+    
+    /* Widths in percentages */
+
+    @each $w in $nums
+    {
+        // Set the width to that corresponding percentage
+        .w-#{$w}
+        {
+            width: #{$w} + "%";
+        }
+    }
+
+    /* Heights in percentages */
+
+    @each $n in $nums
+    {
+        // Set the height to that corresponding percentage
+        .h-#{$n}
+        {
+            height: #{$n} + "%";
+        }
+    }
+
+    
+
+    /* Padding in pexels */
+
+    @each $p in $pexels
+    {
+        // Set the padding to that corresponding pexel
+
+        .p-#{$p}
+        {
+            padding: #{$p} + "px";
+        }
+
+        .p-top-#{$p}
+        {
+            padding-top: #{$p} + "px";
+        }
+
+        .p-bottom-#{$p}
+        {
+            padding-bottom: #{$p} + "px";
+        }
+
+        .p-left-#{$p}
+        {
+            padding-left: #{$p} + "px";
+        }
+
+        .p-right-#{$p}
+        {
+            padding-right: #{$p} + "px";
+        }
+
+
+    }
+
+    /* Margin in pexels */
+
+    @each $m in $pexels
+    {
+        // Set the margin to that corresponding pexel
+
+        .m-#{$m} // General Margin
+        {
+            margin: #{$m} + "px";
+        }
+
+        // Specified margin
+
+        .m-left-#{$m}
+        {
+            margin-left: #{$m} + "px";
+        }
+
+        .m-right-#{$m}
+        {
+            margin-right: #{$m} + "px";
+        }
+
+        .m-top-#{$m}
+        {
+            margin-top: #{$m} + "px";
+        }
+
+        .m-bottom-#{$m}
+        {
+            margin-bottom: #{$m} + "px";
+        }
+
+    }
+
+    /* Margins in percentages */
+
+    @each $m in $nums
+    {
+        // Set the margin to that corresponding percentage
+
+        .mp-#{$m}
+        {
+            margin: #{$m} + "%";
+        }
+
+        .mp-left-#{$m}
+        {
+            margin-left: #{$m} + "%";
+        }
+
+        .mp-right-#{$m}
+        {
+            margin-right: #{$m} + "%";
+        }
+
+        .mp-top-#{$m}
+        {
+            margin-top: #{$m} + "%";
+        }
+
+        .mp-bottom-#{$m}
+        {
+            margin-bottom: #{$m} + "%";
+        }
+
+    }
+
+    /* Padding in percentage */
+
+    @each $p in $nums
+    {
+        // Set the padding to that corresponding percentage
+
+        .pp-#{$p}
+        {
+            padding: #{$p} + "%";
+        }
+
+        .pp-left-#{$p}
+        {
+            padding-left: #{$p} + "%";
+        }
+
+        .pp-right-#{$p}
+        {
+            padding-right: #{$p} + "%";
+        }
+
+        .pp-top-#{$p}
+        {
+            padding-top: #{$p} + "%";
+        }
+
+        .pp-bottom-#{$p}
+        {
+            padding-bottom: #{$p} + "%";
+        }
+
+    }
+
+    .p-inline
+    {
+        box-sizing: border-box;
+    }
+    
+    .p-x
+    {
+        box-sizing: content-box;
+    }
