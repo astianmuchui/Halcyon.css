@@ -5,6 +5,17 @@
 * LICENSE: MIT
 */
 
+
+//  Use colors/_colors.scss to generate
+
+.text-orange
+{
+    color: $darkorange;
+}
+
+
+
+
 .text-black
 {
     color: $black;
@@ -49,6 +60,13 @@
 {
     color: $pink;
 }
+
+.text-red
+{
+    color: $red;
+}
+
+
 
 .text-center
 {
@@ -98,3 +116,4 @@
     padding-bottom: 10px;
 
 }
+
