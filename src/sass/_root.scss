@@ -9,10 +9,12 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 @import 'colors/colors';
 @import 'displays/displays';
+@import 'backgrounds/backgrounds';
 @import 'typography/typography';
 @import 'animations/anime';
 @import 'buttons/buttons';
 @import 'functions/functions';
+@import 'resizes/resize';
 
 
 /* Resets and defaults */
@@ -32,7 +34,6 @@
     box-shadow: none;
     border: none;
     border-collapse: collapse;
-    border-radius: 10px;
     color: #ccc;
 
 }
@@ -47,6 +48,13 @@ body
 *
 {
     color: $black;
+}
+
+header
+{
+    border: none;
+    box-sizing: border-box;
+    padding: 0 30px;
 }
 
 form
