@@ -7,292 +7,403 @@
 
 
 @keyframes fade
-{
+{ 
+
     from
-    {
+    { 
+
         opacity: 0;
     }
 
     to
-    {
+    { 
+
         opacity: 1;
     }
 }
 
 @keyframes SlideInLeft
-{
+{ 
+
     0%
-    {
+    { 
+
         left: -50px;
+        opacity: 0;
     }
 
     25%
-    {
+    { 
+
         left: -30px;
+        opacity: 0.25;
     }
 
     50%
-    {
+    { 
+
         left: -10px;
+        opacity: 0.5;
     }
     
     75%
-    {
+    { 
+
         left: 5px;
+        opacity: 0.75;
     }
 
     100%
-    {
+    { 
+
         left: 0px;
+        opacity: 1;
     }
 }
 
 @keyframes SlideInRight
-{
+{ 
+
     0%
-    {
+    { 
+
         right: -50px;
+        opacity: 0;
     }
 
     25%
-    {
+    { 
+
         right: -30px;
+        opacity: 0.25;
     }
 
     50%
-    {
+    { 
+
         right: -10px;
+        opacity: 0.5;
     }
     
     75%
-    {
+    { 
+
         right: 5px;
+        opacity: 0.75;
     }
 
     100%
-    {
+    { 
+
         right: 0px;
+        opacity: 1;
     }
 }
 
 @keyframes SlideInUp
-{
+{ 
+
     0%
-    {
+    { 
+
         top: -50px;
+        opacity: 0;
     }
 
     25%
-    {
+    { 
+
         top: -30px;
+        opacity: 0.25;
     }
 
     50%
-    {
+    { 
+
         top: -10px;
+        opacity: 0.5;
     }
     
     75%
-    {
+    { 
+
         top: 5px;
+        opacity: 0.75;
     }
 
     100%
-    {
+    { 
+
         top: 0px;
+        opacity: 1;
     }
 }
 
 @keyframes SlideInDown
-{
+{ 
+
     0%
-    {
+    { 
+
         bottom: -50px;
+        opacity: 0;
     }
 
     25%
-    {
+    { 
+
         bottom: -30px;
+        opacity: 0.25;
     }
 
     50%
-    {
+    { 
+
         bottom: -10px;
+        opacity: 0.5;
     }
     
     75%
-    {
+    { 
+
         bottom: 5px;
+        opacity: 0.75;
     }
 
     100%
-    {
+    { 
+
         bottom: 0px;
+        opacity: 1;
     }
 }
 
 
 @keyframes SlideOutLeft
-{
+{ 
+
     0%
-    {
+    { 
+
         left: 0px;
+        opacity: 0;
     }
 
     25%
-    {
+    { 
+
         left: 5px;
+        opacity: 0.25;
     }
 
     50%
-    {
+    { 
+
         left: -10px;
+        opacity: 0.5;
     }
     
     75%
-    {
+    { 
+
         left: -30px;
+        opacity: 0.75;
     }
 
     100%
-    {
+    { 
+
         left: -50px;
+        opacity: 1;
     }
 }
 
 @keyframes SlideOutRight
-{
+{ 
+
     0%
-    {
+    { 
+
         right: 0px;
+        opacity: 0;
     }
 
     25%
-    {
+    { 
+
         right: 5px;
+        opacity: 0.25;
     }
 
     50%
-    {
+    { 
+
         right: -10px;
+        opacity: 0.5;
     }
     
     75%
-    {
+    { 
+
         right: -30px;
+        opacity: 0.75;
     }
 
     100%
-    {
+    { 
+
         right: -50px;
+        opacity: 1;
     }
 }
 
 @keyframes SlideOutUp
-{
+{ 
+
     0%
-    {
+    { 
+
         top: 0px;
+        opacity: 0;
     }
 
     25%
-    {
+    { 
+
         top: 5px;
+        opacity: 0.25;
     }
 
     50%
-    {
+    { 
+
         top: -10px;
+        opacity: 0.5;
     }
     
     75%
-    {
+    { 
+
         top: -30px;
+        opacity: 0.75;
     }
 
     100%
-    {
+    { 
+
         top: -50px;
+        opacity: 1;
     }
 }
 
 @keyframes SlideOutDown
-{
+{ 
+
     0%
-    {
+    { 
+
         bottom: 0px;
+        opacity: 0;
     }
 
     25%
-    {
+    { 
+
         bottom: 5px;
+        opacity: 0.25;
     }
 
     50%
-    {
+    { 
+
         bottom: -10px;
+        opacity: 0.5;
     }
     
     75%
-    {
+    { 
+
         bottom: -30px;
+        opacity: 0.75;
     }
 
     100%
-    {
+    { 
+
         bottom: -50px;
+        opacity: 1;
     }
 }
 
 @keyframes RotateIn
-{
+{ 
+
     0%
-    {
+    { 
+
         transform: rotate(-200deg);
+        opacity: 0.5;
     }
 
     100%
-    {
+    { 
+
         transform: rotate(0deg);
+        opacity: 1;
     }
 }
 
 @keyframes RotateOut
-{
+{ 
+
     0%
-    {
+    { 
+
         transform: rotate(0deg);
+        opacity: 0.5;
     }
 
     100%
-    {
+    { 
+
         transform: rotate(200deg);
+        opacity: 1;
     }
 }
 
 @keyframes ZoomIn
-{
+{ 
+
     0%
-    {
+    { 
+
         transform: scale(0);
+        opacity: 0.5;
     }
 
     100%
-    {
+    { 
+
         transform: scale(1);
+        opacity: 1;
     }
 }
 
 @keyframes ZoomOut
-{
+{ 
+
     0%
-    {
+    { 
+
         transform: scale(1);
+        opacity: 0.5;
     }
 
     100%
-    {
+    { 
+
         transform: scale(0);
+        opacity: 1;
     }
 }
 
@@ -303,8 +414,10 @@
 */
 
 @mixin Animation
-{
+{ 
+
     position: relative;
+    opacity: 0;
     animation-duration: 1s;
     animation-delay: 0.5s;
     animation-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
@@ -314,79 +427,92 @@
 
 
 .animate-left
-{
+{ 
+
+    animation-name: SlideInLeft;
     @include Animation;
-    animation: SlideInLeft;
+
 }
 
 .animate-right
-{
+{ 
+
+    animation-name: SlideInRight;
     @include Animation;
-    animation: SlideInRight;
 }
 
 .animate-up
-{
-    @include Animation;
+{ 
     animation: SlideInUp;
+    @include Animation;
 }
 
 .animate-down
-{
-    @include Animation;
+{ 
     animation: SlideInDown;
+    @include Animation;
+
 }
 
 .animate-rotate
-{
-    @include Animation;
+{ 
     animation: RotateIn;
+    @include Animation;
+
 }
 
 .animate-zoom
-{
-    @include Animation;
+{ 
     animation: ZoomIn;
+    @include Animation;
+
 }
 
 .animate-fade
-{
-    @include Animation;
+{ 
     animation: fade;
+    @include Animation;
+
 }
 
 .animate-left-out
-{
-    @include Animation;
+{ 
     animation: SlideOutLeft;
+    @include Animation;
+
 }
 
 .animate-right-out
-{
-    @include Animation;
+{ 
     animation: SlideOutRight;
+    @include Animation;
+
 }
 
 .animate-up-out
-{
-    @include Animation;
+{ 
     animation: SlideOutUp;
+    @include Animation;
+
 }
 
 .animate-down-out
-{
-    @include Animation;
+{ 
     animation: SlideOutDown;
+    @include Animation;
+
 }
 
 .animate-rotate-out
-{
-    @include Animation;
+{ 
     animation: RotateOut;
+    @include Animation;
+
 }
 
 .animate-zoom-out
-{
-    @include Animation;
+{ 
     animation: ZoomOut;
+    @include Animation;
+
 }
