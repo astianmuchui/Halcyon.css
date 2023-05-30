@@ -1,9 +1,10 @@
-/**
-* Halcyon.css resizes
-* Author: Sebastian Muchui K
-* Year: 2023
-* LICENSE: MIT
-*/
+
+    /**
+    * Halcyon.css resizes
+    * Author: Sebastian Muchui K
+    * Year: 2023
+    * LICENSE: MIT
+    */
 
 
     $nums: (); // Empty array to store the percentages
@@ -27,7 +28,7 @@
     @each $w in $nums
     {
         // Set the width to that corresponding percentage
-        .w-#{$w}
+        .wp-#{$w}
         {
             width: #{$w} + "%";
         }
@@ -38,13 +39,55 @@
     @each $n in $nums
     {
         // Set the height to that corresponding percentage
-        .h-#{$n}
+        .hp-#{$n}
         {
             height: #{$n} + "%";
         }
     }
 
-    
+    /* Widths in pexels */
+
+    @each $w in $nums
+    {
+        // Set the width to that corresponding pexel
+        .w-#{$w}
+        {
+            width: #{$w} + "px";
+        }
+    }
+
+    /* Heights in pexels */
+
+    @each $n in $nums
+    {
+        // Set the height to that corresponding pexel
+        .h-#{$n}
+        {
+            height: #{$n} + "px";
+        }
+    }
+
+    /* Width relative to viewport */
+
+    @each $w in $nums
+    {
+        // Set the width to that corresponding vw
+        .wv-#{$w}
+        {
+            width: #{$w} + "vw";
+        }
+    }
+
+    /* Height relative to viewport */
+
+    @each $n in $nums
+    {
+        // Set the height to that corresponding vh
+        .hv-#{$n}
+        {
+            height: #{$n} + "vh";
+        }
+    }
 
     /* Padding in pexels */
 
@@ -189,4 +232,14 @@
     .p-x
     {
         box-sizing: content-box;
+    }
+
+    .n-edgy
+    {
+        border-radius: 10px;
+    }
+
+    .edgy
+    {
+        border-radius: 0;
     }
