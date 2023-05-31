@@ -20,6 +20,7 @@
     color: $white;
     font-weight: 600;
     border-radius: 10px;
+    width: max-content;
 
     &:hover
     {
@@ -37,7 +38,7 @@
 
 .btn-white
 {
-    background-color: $white;
+    background-color: darken($color: #000000, $amount: 0);
     @extend .default;
 }
 

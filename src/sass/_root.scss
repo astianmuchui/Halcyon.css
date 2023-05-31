@@ -7,14 +7,15 @@
 */
 
 @import url('https://fonts.googleapis.com/css?family=Poppins');
+@import 'animations/anime';
 @import 'colors/colors';
 @import 'displays/displays';
 @import 'backgrounds/backgrounds';
 @import 'typography/typography';
-@import 'animations/anime';
 @import 'buttons/buttons';
 @import 'functions/functions';
 @import 'resizes/resize';
+@import 'effects/effects';
 
 
 /* Resets and defaults */
@@ -25,7 +26,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    scroll-behavior: smooth;
     overflow-x: hidden;
     font-family: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     list-style-type: none;
@@ -38,13 +38,14 @@
 
 }
 
+html
+{
+    scroll-behavior: smooth;
+}
+
 body
 {
     background-color: $white;
-    width: 100vw;
-    height: 100vh;
-    border-radius: 0;
-
 *
 {
     color: $black;

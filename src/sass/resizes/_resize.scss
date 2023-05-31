@@ -17,7 +17,7 @@
         $nums: append($nums, $i);
     }
 
-    @for $j from 0 through 500
+    @for $j from 0 through 200
     {
         $pexels: append($pexels, $j);
     }
