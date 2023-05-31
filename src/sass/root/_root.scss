@@ -7,16 +7,15 @@
 */
 
 @import url('https://fonts.googleapis.com/css?family=Poppins');
-@import 'animations/anime';
-@import 'colors/colors';
-@import 'displays/displays';
-@import 'backgrounds/backgrounds';
-@import 'typography/typography';
-@import 'buttons/buttons';
-@import 'functions/functions';
-@import 'resizes/resize';
-@import 'effects/effects';
-
+@import '../colors/colors';
+@import '../displays/displays';
+@import '../backgrounds/backgrounds';
+@import '../typography/typography';
+@import '../buttons/buttons';
+@import '../resizes/resize';
+@import '../effects/effects';
+@import '../animations/anime';
+@import '../functions/functions';
 
 /* Resets and defaults */
 

@@ -409,6 +409,14 @@
     }
 }
 
+@keyframes init
+{
+    100%
+    {
+        opacity: 1;
+    }
+}
+
 /**
 * HandleAnimation - Make the class animation ready
 * @perform: Animation prepping
@@ -432,7 +440,7 @@
     
     @for $i from 1 through 10
     {
-        .ch-animate, *:nth-child(#{$i})
+        *:nth-child(#{$i})
         {
             animation-delay: #{$delay} + "s";
         }
@@ -443,12 +451,17 @@
 
 }
 
+    // Special class
+    .ch-animate{
+        animation-name: init;
+        @include Animation();
+    }
 
 .animate-left
 { 
 
     animation-name: SlideInLeft;
-    @include Animation;
+    @include Animation();
 
 }
 
@@ -456,81 +469,81 @@
 { 
 
     animation-name: SlideInRight;
-    @include Animation;
+    @include Animation();
 }
 
 .animate-up
 { 
     animation: SlideInUp;
-    @include Animation;
+    @include Animation();
 }
 
 .animate-down
 { 
     animation: SlideInDown;
-    @include Animation;
+    @include Animation();
 
 }
 
 .animate-rotate
 { 
     animation: RotateIn;
-    @include Animation;
+    @include Animation();
 
 }
 
 .animate-zoom
 { 
     animation: ZoomIn;
-    @include Animation;
+    @include Animation();
 
 }
 
 .animate-fade
 { 
     animation: fade;
-    @include Animation;
+    @include Animation();
 
 }
 
 .animate-left-out
 { 
     animation: SlideOutLeft;
-    @include Animation;
+    @include Animation();
 
 }
 
 .animate-right-out
 { 
     animation: SlideOutRight;
-    @include Animation;
+    @include Animation();
 
 }
 
 .animate-up-out
 { 
     animation: SlideOutUp;
-    @include Animation;
+    @include Animation();
 
 }
 
 .animate-down-out
 { 
     animation: SlideOutDown;
-    @include Animation;
+    @include Animation();
 
 }
 
 .animate-rotate-out
 { 
     animation: RotateOut;
-    @include Animation;
+    @include Animation();
 
 }
 
 .animate-zoom-out
 { 
     animation: ZoomOut;
-    @include Animation;
+    @include Animation();
 
 }

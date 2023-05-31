@@ -3,12 +3,13 @@
 * Author: Sebastian Muchui K
 * Year: 2023
 * LICENSE: MIT
-*/
-
-/**
 * Compile this file to get the whole framework
-* The main file can be found at /dist/
-* Have fun :)
+* Libraries assembled at _root.scss
+* Micro-libraries are in the above folders i.e /src/sass/*
+* The final compiled file can be found at /dist/
+* PS: Do not write anything to this file apart from the import statement
+* Have fun using
 */
 
-@import 'root';
+
+@import 'root/root'; // Assemble everything
