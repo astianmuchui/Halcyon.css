@@ -1,3 +1,9 @@
+/**
+* Halcyon.css
+* Visual studio code custom settings
+*/
+
+
 {
     "liveSassCompile.settings.generateMap": true,
     "liveSassCompile.settings.formats": [
