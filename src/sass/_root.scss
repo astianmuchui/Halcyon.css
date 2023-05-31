@@ -20,6 +20,16 @@
 
 /* Resets and defaults */
 
+::-webkit-scrollbar
+{
+    width: 4px;
+}
+::-webkit-scrollbar-thumb
+{
+    background-color: darken($grey, 20);
+    border-radius:10px;
+}
+
 *
 {
 
@@ -49,7 +59,18 @@ body
 *
 {
     color: $black;
-}
+
+    ::-webkit-scrollbar
+    {
+        width: 2px;
+    }
+    ::-webkit-scrollbar-thumb
+    {
+        background-color: rgba(0, 0, 0, 0.2);
+        backdrop-filter: blur(10px);
+        border-radius:10px;
+    }
+    }
 
 header
 {
@@ -66,6 +87,8 @@ form
     width: max-content;
     align-items: center;
     justify-items: flex-start;
+    justify-content: flex-start;
+    align-content: flex-start;
     padding: 10px;
 
 
@@ -74,7 +97,7 @@ form
         margin-bottom: 10px;
     }
     
-    input, textarea
+    input, textarea, select
     {
         color: $black;
         background-color: darken($white, 3%);
@@ -85,6 +108,19 @@ form
         width: 80%;
     }
 
+    // Radio
+    input[type="radio"]
+    {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        margin: 0 5px;
+    }
+
+    
+    
+
+    
 
     textarea
     {
@@ -95,7 +131,6 @@ form
     button
     {
         width: 80%;
-
     }
 }
 
