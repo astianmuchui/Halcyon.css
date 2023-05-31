@@ -410,11 +410,9 @@
 }
 
 /**
-* HandleAnimation - Make the class animateable 
-* @param: none
-* @return: relative positioning
+* HandleAnimation - Make the class animation ready
+* @perform: Animation prepping
 */
-
 @mixin Animation
 { 
 
@@ -428,18 +426,28 @@
     transition-property: all;
 
     /**
-        * Add delay time to child classes of the animate classes
-        * To prevent concurrent occurences of animations
+    * Add delay time to child classes of the animate classes
+    * To prevent concurrent occurences of animations
     */
-
-    *
+    
+    @for $i from 1 through 10
     {
-        animation-delay: #{$delay + 1} + "s";
+        *:nth-child(#{$i})
+        {
+            animation-delay: #{$delay} + "s";
+        }
+
+        $delay:$delay + 0.75 ; // Increment by 0.5
     }
+
 
 }
 
-
+.animate
+{
+    animation-name: fade;
+    @include Animation;
+}
 
 .animate-left
 { 
