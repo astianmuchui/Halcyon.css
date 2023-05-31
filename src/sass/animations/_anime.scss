@@ -432,7 +432,7 @@
     
     @for $i from 1 through 10
     {
-        *:nth-child(#{$i})
+        .ch-animate, *:nth-child(#{$i})
         {
             animation-delay: #{$delay} + "s";
         }
@@ -443,11 +443,6 @@
 
 }
 
-.animate
-{
-    animation-name: fade;
-    @include Animation;
-}
 
 .animate-left
 { 
