@@ -5,23 +5,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../src/sass/halcyon.css">
+    <link rel="stylesheet" href="/dist/halcyon.min.css">
     <title>The CSS Framework for Lazybones | Test</title>
 </head>
 
 <body>
 
-    <form>
 
-        <h3 class="text-blue text-large">A Simple Form</h3>
+    <main class="hv-100 wv-100 center-xy">
+        <form class="wv-80 hv-90 center-xy">
 
-        <input type="text" name="" id="">
-        <input type="text" name="" id="">
-        <input type="text" name="" id="">
-        <textarea name="" id="" cols="30" rows="10"></textarea>
-        <button type="submit" class="btn-blue">Submit Form</button>
-        
-    </form>
+            <h3 class="text-blue text-large">A Simple Form</h3>
+    
+            <input type="text" name="" id="">
+            <input type="text" name="" id="">
+            <input type="text" name="" id="">
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+            
+            <!-- Select box -->
+            <select name="" id="">
+                <option value="">Select an Option</option>
+                <option value="">Option 1</option>
+                <option value="">Option 2</option>
+                <option value="">Option 3</option>
+                <option value="">Option 4</option>
+            </select>
+
+            <!-- Radio buttons -->
+            <div class="grid-2">
+
+                <input type="radio" name="radio" id="radio1">
+                <input type="radio" name="radio" id="radio2">
+                
+            </div>
+
+            <button type="submit" class="btn-blue">Submit Form</button>
+            
+        </form>
+    </main>
+
 
 </body>
 
