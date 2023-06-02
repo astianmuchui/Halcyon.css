@@ -8,10 +8,10 @@
 
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 @import '../colors/colors';
-@import '../displays/displays';
 @import '../backgrounds/backgrounds';
-@import '../typography/typography';
 @import '../buttons/buttons';
+@import '../displays/displays';
+@import '../typography/typography';
 @import '../resizes/resize';
 @import '../effects/effects';
 @import '../animations/anime';
@@ -115,11 +115,6 @@ form
         border-radius: 50%;
         margin: 0 5px;
     }
-
-    
-    
-
-    
 
     textarea
     {
