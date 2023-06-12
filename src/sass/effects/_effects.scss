@@ -18,3 +18,85 @@
     {
         position: relative;
     }
+
+    .n-stick-bottom
+    {
+        position: sticky;
+        bottom: 0;
+        z-index: 999;
+    }
+
+    .nn-stick-bottom
+    {
+        position: relative;
+    }
+
+    @mixin positioning
+    {
+        position: relative;
+        transition-property: all;
+        transition-duration: 1s;
+        transition-delay: 0.3s;
+        transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    }
+
+    .hvr-glow
+    {
+
+        &:hover
+        {
+            background-color: lighten(initial, 10);
+        }
+    }
+
+
+    .hvr-darken
+    {
+            
+        &:hover
+        {
+            background-color: darken(initial, 10);
+        }
+    }
+
+
+    .hvr-grow
+    {
+        @include positioning();
+
+        &:hover
+        {
+            transform: scale(1.1);
+        }
+    }
+
+    .hvr-shrink
+    {
+        @include positioning();
+
+        &:hover
+        {
+            transform: scale(0.9);
+        }
+    }
+
+    .hvr-rotate
+    {
+        @include positioning();
+
+        &:hover
+        {
+            transform: rotate(360deg);
+        }
+    }
+
+    .hvr-bounce-in
+    {
+        @include positioning();
+
+        &:hover
+        {
+            transform: scale(1.1);
+        }
+    }
+    
