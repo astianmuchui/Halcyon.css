@@ -40,24 +40,6 @@
         transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
     }
 
-    .hvr-glow
-    {
-
-        &:hover
-        {
-            background-color: lighten(initial, 10);
-        }
-    }
-
-
-    .hvr-darken
-    {
-            
-        &:hover
-        {
-            background-color: darken(initial, 10);
-        }
-    }
 
 
     .hvr-grow
