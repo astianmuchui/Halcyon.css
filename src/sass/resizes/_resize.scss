@@ -229,7 +229,7 @@
         box-sizing: border-box;
     }
     
-    .p-x
+    .p-n-inline
     {
         box-sizing: content-box;
     }
@@ -243,3 +243,17 @@
     {
         border-radius: 0;
     }
+
+    @for $j from 0 through 100
+    {
+        .br-#{$j}
+        {
+            border-radius: #{$j} + "px";
+        }
+
+        .br-p-#{$j}
+        {
+            border-radius: #{$j} + "%";
+        }
+    }
+
