@@ -5,9 +5,7 @@
 * LICENSE: MIT
 */
 
-$columns:(1,2,3,4,5,6,7,8,9,10);
-
-@each $col in $columns
+@for $col from 0 through 50
 {
     .grid-#{$col}
     {
@@ -58,3 +56,45 @@ $columns:(1,2,3,4,5,6,7,8,9,10);
     }
 }
 }
+
+.border-collapse
+{
+    border-collapse: collapse;
+}
+
+.border-separate
+{
+    border-collapse: separate;
+}
+
+.display-none
+{
+    display: none;    
+}
+
+.display-block
+{
+    display: block;
+}
+
+.display-inline
+{
+    display: inline;
+}
+
+.display-inline-block
+{
+    display: inline-block;
+}
+
+.display-flex
+{
+    display: flex;
+}
+
+.display-inline-flex
+{
+    display: inline-flex;
+}
+
+

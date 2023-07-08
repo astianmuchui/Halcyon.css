@@ -10,7 +10,8 @@
           @content;
         }
       }
-    } @else if $breakpoint == 'md'
+    }
+    @else if $breakpoint == 'md'
      {
       .#{$breakpoint}-#{$selector}
        {
@@ -19,7 +20,8 @@
           @content;
         }
       }
-    } @else if $breakpoint == 'lg'
+    }
+    @else if $breakpoint == 'lg'
      {
       .#{$breakpoint}-#{$selector}
        {
@@ -28,7 +30,8 @@
           @content;
         }
       }
-    } @else if $breakpoint == 'xl'
+    }
+    @else if $breakpoint == 'xl'
      {
       .#{$breakpoint}-#{$selector}
        {
@@ -37,7 +40,8 @@
           @content;
         }
       }
-    } @else if $breakpoint == '2xl'
+    }
+    @else if $breakpoint == '2xl'
      {
       .#{$breakpoint}-#{$selector}
        {
@@ -49,3 +53,9 @@
     }
   }
   
+
+// Get resize classes
+
+
+
+

@@ -249,452 +249,661 @@
 {
     .bg-black-l-#{$i}
     {
-        background-color: lighten($black, #{$i});
+        background-color: lighten($black, $i);
     }
 
     .bg-black-d-#{$i}
     {
-        background-color: darken($black, #{$i});
+        background-color: darken($black, $i);
     }
 
     .bg-blue-l-#{$i}
     {
-        background-color: lighten($blue, #{$i});
+        background-color: lighten($blue, $i);
     }
 
     .bg-blue-d-#{$i}
     {
-        background-color: darken($blue, #{$i});
+        background-color: darken($blue, $i);
     }
 
     .bg-green-l-#{$i}
     {
-        background-color: lighten($green, #{$i});
+        background-color: lighten($green, $i);
     }
     
     .bg-green-d-#{$i}
     {
-        background-color: darken($green, #{$i});
+        background-color: darken($green, $i);
     }
 
     .bg-brown-l-#{$i}
     {
-        background-color: lighten($brown, #{$i});
+        background-color: lighten($brown, $i);
     }
 
     .bg-brown-d-#{$i}
     {
-        background-color: darken($brown, #{$i});
+        background-color: darken($brown, $i);
     }
 
     .bg-gold-l-#{$i}
     {
-        background-color: lighten($gold, #{$i});
+        background-color: lighten($gold, $i);
     }
 
     .bg-gold-d-#{$i}
     {
-        background-color: darken($gold, #{$i});
+        background-color: darken($gold, $i);
     }
 
     .bg-grey-l-#{$i}
     {
-        background-color: lighten($grey, #{$i});
+        background-color: lighten($grey, $i);
     }
 
     .bg-grey-d-#{$i}
     {
-        background-color: darken($grey, #{$i});
+        background-color: darken($grey, $i);
     }
 
     .bg-pink-l-#{$i}
     {
-        background-color: lighten($pink, #{$i});
+        background-color: lighten($pink, $i);
     }
 
     .bg-pink-d-#{$i}
     {
-        background-color: darken($pink, #{$i});
+        background-color: darken($pink, $i);
     }
 
     .bg-red-l-#{$i}
     {
-        background-color: lighten($red, #{$i});
+        background-color: lighten($red, $i);
     }
 
     .bg-red-d-#{$i}
     {
-        background-color: darken($red, #{$i});
+        background-color: darken($red, $i);
     }
 
     .bg-purple-l-#{$i}
     {
-        background-color: lighten($purple, #{$i});
+        background-color: lighten($purple, $i);
     }
 
     .bg-purple-d-#{$i}
     {
-        background-color: darken($purple, #{$i});
+        background-color: darken($purple, $i);
     }
 
     .bg-navy-l-#{$i}
     {
-        background-color: lighten($navy, #{$i});
+        background-color: lighten($navy, $i);
     }
 
     .bg-navy-d-#{$i}
     {
-        background-color: darken($navy, #{$i});
+        background-color: darken($navy, $i);
     }
 
     .bg-orange-l-#{$i}
     {
-        background-color: lighten($orange, #{$i});
+        background-color: lighten($orange, $i);
     }
 
     .bg-orange-d-#{$i}
     {
-        background-color: darken($orange, #{$i});
+        background-color: darken($orange, $i);
     }
 
     .bg-yellow-l-#{$i}
     {
-        background-color: lighten($yellow, #{$i});
+        background-color: lighten($yellow, $i);
     }
 
     .bg-yellow-d-#{$i}
     {
-        background-color: darken($yellow, #{$i});
+        background-color: darken($yellow, $i);
     }
 
     .bg-teal-l-#{$i}
     {
-        background-color: lighten($teal, #{$i});
+        background-color: lighten($teal, $i);
     }
 
     .bg-teal-d-#{$i}
     {
-        background-color: darken($teal, #{$i});
+        background-color: darken($teal, $i);
     }
 
     .bg-maroon-l-#{$i}
     {
-        background-color: lighten($maroon, #{$i});
+        background-color: lighten($maroon, $i);
     }
 
     .bg-maroon-d-#{$i}
     {
-        background-color: darken($maroon, #{$i});
+        background-color: darken($maroon, $i);
     }
 
     .bg-olive-l-#{$i}
     {
-        background-color: lighten($olive, #{$i});
+        background-color: lighten($olive, $i);
     }
 
     .bg-olive-d-#{$i}
     {
-        background-color: darken($olive, #{$i});
+        background-color: darken($olive, $i);
     }
 
     .bg-lime-l-#{$i}
     {
-        background-color: lighten($lime, #{$i});
+        background-color: lighten($lime, $i);
     }
 
     .bg-lime-d-#{$i}
     {
-        background-color: darken($lime, #{$i});
+        background-color: darken($lime, $i);
     }
 
     .bg-indigo-l-#{$i}
     {
-        background-color: lighten($indigo, #{$i});
+        background-color: lighten($indigo, $i);
     }
 
     .bg-indigo-d-#{$i}
     {
-        background-color: darken($indigo, #{$i});
+        background-color: darken($indigo, $i);
     }
 
     .bg-skyblue-l-#{$i}
     {
-        background-color: lighten($skyblue, #{$i});
+        background-color: lighten($skyblue, $i);
     }
 
     .bg-skyblue-d-#{$i}
     {
-        background-color: darken($skyblue, #{$i});
+        background-color: darken($skyblue, $i);
     }
 
     .bg-darkblue-l-#{$i}
     {
-        background-color: lighten($darkblue, #{$i});
+        background-color: lighten($darkblue, $i);
     }
 
     .bg-darkblue-d-#{$i}
     {
-        background-color: darken($darkblue, #{$i});
+        background-color: darken($darkblue, $i);
     }
 
     .bg-darkgreen-l-#{$i}
     {
-        background-color: lighten($darkgreen, #{$i});
+        background-color: lighten($darkgreen, $i);
     }
 
     .bg-darkgreen-d-#{$i}
     {
-        background-color: darken($darkgreen, #{$i});
+        background-color: darken($darkgreen, $i);
     }
 
     .bg-darkred-l-#{$i}
     {
-        background-color: lighten($darkred, #{$i});
+        background-color: lighten($darkred, $i);
     }
 
     .bg-darkred-d-#{$i}
     {
-        background-color: darken($darkred, #{$i});
+        background-color: darken($darkred, $i);
     }
 
     .bg-darkgrey-l-#{$i}
     {
-        background-color: lighten($darkgrey, #{$i});
+        background-color: lighten($darkgrey, $i);
     }
 
     .bg-darkgrey-d-#{$i}
     {
-        background-color: darken($darkgrey, #{$i});
+        background-color: darken($darkgrey, $i);
     }
 
     .bg-darkpurple-l-#{$i}
     {
-        background-color: lighten($darkpurple, #{$i});
+        background-color: lighten($darkpurple, $i);
     }
 
     .bg-darkpurple-d-#{$i}
     {
-        background-color: darken($darkpurple, #{$i});
+        background-color: darken($darkpurple, $i);
     }
 
     .bg-darkpink-l-#{$i}
     {
-        background-color: lighten($darkpink, #{$i});
+        background-color: lighten($darkpink, $i);
     }
 
     .bg-darkpink-d-#{$i}
     {
-        background-color: darken($darkpink, #{$i});
+        background-color: darken($darkpink, $i);
     }
 
     .bg-darkorange-l-#{$i}
     {
-        background-color: lighten($darkorange, #{$i});
+        background-color: lighten($darkorange, $i);
     }
 
     .bg-darkorange-d-#{$i}
     {
-        background-color: darken($darkorange, #{$i});
+        background-color: darken($darkorange, $i);
     }
 
     .bg-darkyellow-l-#{$i}
     {
-        background-color: lighten($darkyellow, #{$i});
+        background-color: lighten($darkyellow, $i);
     }
 
     .bg-darkyellow-d-#{$i}
     {
-        background-color: darken($darkyellow, #{$i});
+        background-color: darken($darkyellow, $i);
     }
 
     .bg-darkbrown-l-#{$i}
     {
-        background-color: lighten($darkbrown, #{$i});
+        background-color: lighten($darkbrown, $i);
     }
 
     .bg-darkbrown-d-#{$i}
     {
-        background-color: darken($darkbrown, #{$i});
+        background-color: darken($darkbrown, $i);
     }
 
     .bg-darkteal-l-#{$i}
     {
-        background-color: lighten($darkteal, #{$i});
+        background-color: lighten($darkteal, $i);
     }
 
     .bg-darkteal-d-#{$i}
     {
-        background-color: darken($darkteal, #{$i});
+        background-color: darken($darkteal, $i);
     }
 
     .bg-darkmaroon-l-#{$i}
     {
-        background-color: lighten($darkmaroon, #{$i});
+        background-color: lighten($darkmaroon, $i);
     }
 
     .bg-darkmaroon-d-#{$i}
     {
-        background-color: darken($darkmaroon, #{$i});
+        background-color: darken($darkmaroon, $i);
     }
 
     .bg-darkolive-l-#{$i}
     {
-        background-color: lighten($darkolive, #{$i});
+        background-color: lighten($darkolive, $i);
     }
 
     .bg-darkolive-d-#{$i}
     {
-        background-color: darken($darkolive, #{$i});
+        background-color: darken($darkolive, $i);
     }
 
     .bg-darklime-l-#{$i}
     {
-        background-color: lighten($darklime, #{$i});
+        background-color: lighten($darklime, $i);
     }
 
     .bg-darklime-d-#{$i}
     {
-        background-color: darken($darklime, #{$i});
+        background-color: darken($darklime, $i);
     }
 
     .bg-darkindigo-l-#{$i}
     {
-        background-color: lighten($darkindigo, #{$i});
+        background-color: lighten($darkindigo, $i);
     }
 
     .bg-darkindigo-d-#{$i}
     {
-        background-color: darken($darkindigo, #{$i});
+        background-color: darken($darkindigo, $i);
     }
 
     .bg-darkskyblue-l-#{$i}
     {
-        background-color: lighten($darkskyblue, #{$i});
+        background-color: lighten($darkskyblue, $i);
     }
 
     .bg-darkskyblue-d-#{$i}
     {
-        background-color: darken($darkskyblue, #{$i});
+        background-color: darken($darkskyblue, $i);
     }
 
     .bg-lightgrey-l-#{$i}
     {
-        background-color: lighten($lightgrey, #{$i});
+        background-color: lighten($lightgrey, $i);
     }
 
     .bg-lightgrey-d-#{$i}
     {
-        background-color: darken($lightgrey, #{$i});
+        background-color: darken($lightgrey, $i);
     }
 
     .bg-lightpurple-l-#{$i}
     {
-        background-color: lighten($lightpurple, #{$i});
+        background-color: lighten($lightpurple, $i);
     }
 
     .bg-lightpurple-d-#{$i}
     {
-        background-color: darken($lightpurple, #{$i});
+        background-color: darken($lightpurple, $i);
     }
 
     .bg-lightpink-l-#{$i}
     {
-        background-color: lighten($lightpink, #{$i});
+        background-color: lighten($lightpink, $i);
     }
 
     .bg-lightpink-d-#{$i}
     {
-        background-color: darken($lightpink, #{$i});
+        background-color: darken($lightpink, $i);
     }
 
     .bg-lightorange-l-#{$i}
     {
-        background-color: lighten($lightorange, #{$i});
+        background-color: lighten($lightorange, $i);
     }
 
     .bg-lightorange-d-#{$i}
     {
-        background-color: darken($lightorange, #{$i});
+        background-color: darken($lightorange, $i);
     }
 
     .bg-lightyellow-l-#{$i}
     {
-        background-color: lighten($lightyellow, #{$i});
+        background-color: lighten($lightyellow, $i);
     }
 
     .bg-lightyellow-d-#{$i}
     {
-        background-color: darken($lightyellow, #{$i});
+        background-color: darken($lightyellow, $i);
     }
 
     .bg-lightbrown-l-#{$i}
     {
-        background-color: lighten($lightbrown, #{$i});
+        background-color: lighten($lightbrown, $i);
     }
 
     .bg-lightbrown-d-#{$i}
     {
-        background-color: darken($lightbrown, #{$i});
+        background-color: darken($lightbrown, $i);
     }
 
     .bg-lightteal-l-#{$i}
     {
-        background-color: lighten($lightteal, #{$i});
+        background-color: lighten($lightteal, $i);
     }
 
     .bg-lightteal-d-#{$i}
     {
-        background-color: darken($lightteal, #{$i});
+        background-color: darken($lightteal, $i);
     }
 
     .bg-lightmaroon-l-#{$i}
     {
-        background-color: lighten($lightmaroon, #{$i});
+        background-color: lighten($lightmaroon, $i);
     }
 
     .bg-lightmaroon-d-#{$i}
     {
-        background-color: darken($lightmaroon, #{$i});
+        background-color: darken($lightmaroon, $i);
     }
 
     .bg-lightolive-l-#{$i}
     {
-        background-color: lighten($lightolive, #{$i});
+        background-color: lighten($lightolive, $i);
     }
 
     .bg-lightolive-d-#{$i}
     {
-        background-color: darken($lightolive, #{$i});
+        background-color: darken($lightolive, $i);
     }
 
     .bg-lightlime-l-#{$i}
     {
-        background-color: lighten($lightlime, #{$i});
+        background-color: lighten($lightlime, $i);
     }
 
     .bg-lightlime-d-#{$i}
     {
-        background-color: darken($lightlime, #{$i});
+        background-color: darken($lightlime, $i);
     }
 
     .bg-lightindigo-l-#{$i}
     {
-        background-color: lighten($lightindigo, #{$i});
+        background-color: lighten($lightindigo, $i);
     }
 
     .bg-lightindigo-d-#{$i}
     {
-        background-color: darken($lightindigo, #{$i});
+        background-color: darken($lightindigo, $i);
     }
 
     .bg-lightskyblue-l-#{$i}
     {
-        background-color: lighten($lightskyblue, #{$i});
+        background-color: lighten($lightskyblue, $i);
     }
 
     .bg-lightskyblue-d-#{$i}
     {
-        background-color: darken($lightskyblue, #{$i});
+        background-color: darken($lightskyblue, $i);
     }
 
+    .border-#{$i}-black
+    {
+        border: #{$i}px solid lighten($black, $i);
+    }
+
+    .border-#{$i}-white
+    {
+        border: #{$i}px solid lighten($black, $i);
+    }
+
+    .border-#{$i}-blue
+    {
+        border: #{$i}px solid lighten($blue, $i);
+    }
+
+    .border-#{$i}-green
+    {
+        border: #{$i}px solid lighten($green, $i);
+    }
+
+    .border-#{$i}-brown
+    {
+        border: #{$i}px solid lighten($brown, $i);
+    }
+
+    .border-#{$i}-gold
+    {
+        border: #{$i}px solid lighten($gold, $i);
+    }
+
+    .border-#{$i}-grey
+    {
+        border: #{$i}px solid lighten($grey, $i);
+    }
+
+    .border-#{$i}-pink
+    {
+        border: #{$i}px solid lighten($pink, $i);
+    }
+
+    .border-#{$i}-red
+    {
+        border: #{$i}px solid lighten($red, $i);
+    }
+
+    .border-#{$i}-purple
+    {
+        border: #{$i}px solid lighten($purple, $i);
+    }
+
+    .border-#{$i}-navy
+    {
+        border: #{$i}px solid lighten($navy, $i);
+    }
+
+    .border-#{$i}-orange
+    {
+        border: #{$i}px solid lighten($orange, $i);
+    }
+
+    .border-#{$i}-yellow
+    {
+        border: #{$i}px solid lighten($yellow, $i);
+    }
+
+    .border-#{$i}-teal
+    {
+        border: #{$i}px solid lighten($teal, $i);
+    }
+
+    .border-#{$i}-maroon
+    {
+        border: #{$i}px solid lighten($maroon, $i);
+    }
+
+    .border-#{$i}-olive
+    {
+        border: #{$i}px solid lighten($olive, $i);
+    }
+
+    .border-#{$i}-lime
+    {
+        border: #{$i}px solid lighten($lime, $i);
+    }
+
+    .border-#{$i}-indigo
+    {
+        border: #{$i}px solid lighten($indigo, $i);
+    }
+
+    .border-#{$i}-skyblue
+    {
+        border: #{$i}px solid lighten($skyblue, $i);
+    }
+
+    .border-#{$i}-darkblue
+    {
+        border: #{$i}px solid lighten($darkblue, $i);
+    }
+
+    .border-#{$i}-darkgreen
+    {
+        border: #{$i}px solid lighten($darkgreen, $i);
+    }
+
+    .border-#{$i}-darkred
+    {
+        border: #{$i}px solid lighten($darkred, $i);
+    }
+
+    .border-#{$i}-darkgrey
+    {
+        border: #{$i}px solid lighten($darkgrey, $i);
+    }
+
+    .border-#{$i}-darkpurple
+    {
+        border: #{$i}px solid lighten($darkpurple, $i);
+    }
+
+    .border-#{$i}-darkpink
+    {
+        border: #{$i}px solid lighten($darkpink, $i);
+    }
+
+    .border-#{$i}-darkorange
+    {
+        border: #{$i}px solid lighten($darkorange, $i);
+    }
+
+    .border-#{$i}-darkyellow
+    {
+        border: #{$i}px solid lighten($darkyellow, $i);
+    }
+
+    .border-#{$i}-darkbrown
+    {
+        border: #{$i}px solid lighten($darkbrown, $i);
+    }
+
+    .border-#{$i}-darkteal
+    {
+        border: #{$i}px solid lighten($darkteal, $i);
+    }
+
+    .border-#{$i}-darkmaroon
+    {
+        border: #{$i}px solid lighten($darkmaroon, $i);
+    }
+
+    .border-#{$i}-darkolive
+    {
+        border: #{$i}px solid lighten($darkolive, $i);
+    }
+
+    .border-#{$i}-darklime
+    {
+        border: #{$i}px solid lighten($darklime, $i);
+    }
+
+    .border-#{$i}-darkindigo
+    {
+        border: #{$i}px solid lighten($darkindigo, $i);
+    }
+
+    .border-#{$i}-darkskyblue
+    {
+        border: #{$i}px solid lighten($darkskyblue, $i);
+    }
+
+    .border-#{$i}-lightgrey
+    {
+        border: #{$i}px solid lighten($lightgrey, $i);
+    }
+
+    .border-#{$i}-lightpurple
+    {
+        border: #{$i}px solid lighten($lightpurple, $i);
+    }
+
+    .border-#{$i}-lightpink
+    {
+        border: #{$i}px solid lighten($lightpink, $i);
+    }
+
+    .border-#{$i}-lightorange
+    {
+        border: #{$i}px solid lighten($lightorange, $i);
+    }
+
+    .border-#{$i}-lightyellow
+    {
+        border: #{$i}px solid lighten($lightyellow, $i);
+    }
+
+    .border-#{$i}-lightbrown
+    {
+        border: #{$i}px solid lighten($lightbrown, $i);
+    }
+
+    .border-#{$i}-lightteal
+    {
+        border: #{$i}px solid lighten($lightteal, $i);
+    }
+
+    .border-#{$i}-lightmaroon
+    {
+        border: #{$i}px solid lighten($lightmaroon, $i);
+    }
 }

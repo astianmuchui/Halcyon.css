@@ -280,6 +280,21 @@
     font-size: 18px;
 }
 
+.capitalize
+{
+    text-transform: capitalize;
+}
+
+.uppercase
+{
+    text-transform: uppercase;
+}
+
+.lowercase
+{
+    text-transform: lowercase;
+}
+
 .text-large
 {
     font-size: 24px;
@@ -294,3 +309,93 @@
 
 }
 
+
+@for $i from 1 through 100
+{
+    .font-#{$i}
+    {
+        font-size: #{$i}+ "px";
+    }
+
+    .text-black-l-#{$i}
+    {
+        color: lighten($black, $i);
+    }
+
+    .text-black-d-#{$i}
+    {
+        color: darken($black, $i);
+    }
+
+    .text-white-l-#{$i}
+    {
+        color: lighten($white, $i);
+    }
+
+    .text-white-d-#{$i}
+    {
+        color: darken($white, $i);
+    }
+
+    .text-pink-l-#{$i}
+    {
+        color: lighten($pink, $i);
+    }
+
+    .text-pink-d-#{$i}
+    {
+        color: darken($pink, $i);
+    }
+
+    .text-blue-l-#{$i}
+    {
+        color: lighten($blue, $i);
+    }
+
+    .text-blue-d-#{$i}
+    {
+        color: darken($blue, $i);
+    }
+
+    .text-green-l-#{$i}
+    {
+        color: lighten($green, $i);
+    }
+
+    .text-green-d-#{$i}
+    {
+        color: darken($green, $i);
+    }
+
+    .text-orange-l-#{$i}
+    {
+        color: lighten($orange, $i);
+    }   
+
+    .text-orange-d-#{$i}
+    {
+        color: darken($orange, $i);
+    }
+
+    .text-yellow-l-#{$i}
+    {
+        color: lighten($yellow, $i);
+    }
+
+    .text-yellow-d-#{$i}
+    {
+        color: darken($yellow, $i);
+    }
+
+    .text-brown-l-#{$i}
+    {
+        color: lighten($brown, $i);
+    }
+
+    .text-brown-d-#{$i}
+    {
+        color: darken($brown, $i);
+    }
+
+    
+}

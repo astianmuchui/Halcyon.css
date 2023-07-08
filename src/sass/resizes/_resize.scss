@@ -100,6 +100,12 @@
             padding: #{$p} + "px";
         }
 
+        .p-y
+        {
+            padding-top: #{$p} + "px";
+            padding-bottom: #{$p} + "px";
+        }
+
         .p-top-#{$p}
         {
             padding-top: #{$p} + "px";
@@ -132,6 +138,18 @@
         .m-#{$m} // General Margin
         {
             margin: #{$m} + "px";
+        }
+
+        .m-y-#{$m}
+        {
+            margin-top: #{$m} + "px";
+            margin-bottom: #{$m} + "px";
+        }
+
+        .m-x-#{$m}
+        {
+            margin-left: #{$m} + "px";
+            margin-right: #{$m} + "px";
         }
 
         // Specified margin
@@ -169,6 +187,19 @@
             margin: #{$m} + "%";
         }
 
+        .mp-y-#{$m}
+        {
+            margin-top: #{$m} + "%";
+            margin-bottom: #{$m} + "%";
+        }
+
+        .mp-x-#{$m}
+        {
+            margin-left: #{$m} + "%";
+            margin-right: #{$m} + "%";
+        }
+
+
         .mp-left-#{$m}
         {
             margin-left: #{$m} + "%";
@@ -200,6 +231,18 @@
         .pp-#{$p}
         {
             padding: #{$p} + "%";
+        }
+
+        .pp-x-#{$p}
+        {
+            padding-left: #{$p} + "%";
+            padding-right: #{$p} + "%";
+        }
+
+        .pp-y-#{$p}
+        {
+            padding-top: #{$p} + "%";
+            padding-bottom: #{$p} + "%";
         }
 
         .pp-left-#{$p}
@@ -255,5 +298,69 @@
         {
             border-radius: #{$j} + "%";
         }
+    }
+
+    .fl
+    {
+        position: absolute;
+        float: left;
+    }
+
+    .fr
+    {
+        position: absolute;
+        float: right;
+    }
+
+
+    // Positions
+
+    .pos-relative
+    {
+        position: relative;
+    }
+
+    .pos-absolute
+    {
+        position: absolute;
+    }
+
+    .pos-fixed
+    {
+        position: fixed;
+    }
+
+    @for $pos from 0 through 100
+    {
+        z-index-#{$pos}
+        {
+            z-index: $pos;
+        }
+
+        .l-#{$pos}
+        {
+            @extend .pos-relative;
+            left: #{$pos} + "px";
+        }
+
+        .r-#{$pos}
+        {
+            @extend .pos-relative;
+            right: #{$pos} + "px";
+        }
+
+        .t-#{$pos}
+        {
+            @extend .pos-relative;
+            top: #{$pos} + "px";
+        }
+
+        .b-#{$pos}
+        {
+            @extend .pos-relative;
+            bottom: #{$pos} + "px";
+        }
+
+        
     }
 
